@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+    <pre>press-release/list.html</pre>
+
+    <h1>{{ .CurrentSection.Name }}</h1>
+
+    {{ partial "section-nav.html" . }}
+
+    {{ range .Paginator.Pages }}
+    {{ .Render "summary" }}
+    {{ end }}
+</main>
+
+{{ end }}

@@ -1,0 +1,10 @@
+{{ $taxonomy := "categories" }}
+{{ $term := .Params.categories }}
+{{ with $.Site.GetPage (printf "/%s/%s" $taxonomy ($term | urlize)) }}
+    {{ if .Params.icon }}
+        <figure class="category-icon">
+            <img src="{{ .Params.icon }}" alt="{{ .Params.title }}" class="img-fluid float-left" style="max-width: 25px;">
+        </figure>
+    {{ end }}
+{{ end }}
+

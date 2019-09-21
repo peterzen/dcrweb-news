@@ -1,0 +1,25 @@
+{{ define "main" }}
+	<main>
+		<pre>news/single.html</pre>
+
+		{{ partial "section-nav.html" . }}
+
+		{{ partial "breadcrumb.html" . }}
+
+		<article>
+			<h2>{{ .Title }}</h2>
+			<h5>{{ partial "byline" . }}</h5>
+			<div>
+				{{ .Content }}
+			</div>
+			<div>
+				<ul id="tags">
+					{{ range .Params.tags }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

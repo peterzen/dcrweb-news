@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main>
+    <pre>news/list.html </pre>
+
+    <h1>{{ .CurrentSection.Name }}</h1>
+
+    {{ partial "section-nav.html" . }}
+
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "news" ) }}
+    <div class="news--summary-list">
+        {{ range $paginator.Pages }}
+        {{ .Render "summary" }}
+        {{ end }}
+    </div>
+</main>
+
+{{ end }}

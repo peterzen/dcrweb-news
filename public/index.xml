@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Dive - Decentralizing the Treasury - w/Marco Peereboom</title>
+      <link>http://example.org/news/community/2019-09-16_da/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/community/2019-09-16_da/</guid>
+      <description>Decred is in the process of becoming a decentralized autonomous organization, ruled by the collective intelligence of its community and their decision-making. Marco Peereboom, New Systems Lead at Decred, discusses his proposal to decentralize the treasury, which would put control of funds in the hands of the community.</description>
+    </item>
+    
+    <item>
+      <title>Iterating Privacy</title>
+      <link>http://example.org/news/announcements/2019-08-28_iterating_privacy/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/announcements/2019-08-28_iterating_privacy/</guid>
+      <description>Decred’s privacy features and plans are ready to be revealed. The goal of our privacy features is to be simple, adaptable, and creative.
+ Rather than take the routes established by privacy-focused projects, e.g. ring signatures, zk-SNARKs, or Mimblewimble, we decided to take a mixnet approach, where we have integrated the mixnet with our Proof-of-Stake (“PoS”) governance system. Currently, just over 50% of all decred in circulation participate in PoS, which requires a steady flow of ticket purchases.</description>
+    </item>
+    
+    <item>
+      <title>Release Update 1.4.0</title>
+      <link>http://example.org/news/announcements/2019-08-28_update-1-4-0/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/announcements/2019-08-28_update-1-4-0/</guid>
+      <description>Contents  dcrd dcrwallet decrediton  dcrd v1.4.0 This release of dcrd introduces a new consensus vote agenda which allows the stakeholders to decide whether or not to activate changes needed to modify the sequence lock handling which is required for providing full support for the Lightning Network. For those unfamiliar with the voting process in Decred, this means that all code in order to make the necessary changes is already included in this release, however its enforcement will remain dormant until the stakeholders vote to activate it.</description>
+    </item>
+    
+    <item>
+      <title>Service Announcement</title>
+      <link>http://example.org/news/announcements/2019-08-28_service_ann/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/announcements/2019-08-28_service_ann/</guid>
+      <description> Decred’s privacy features and plans are ready to be revealed. The goal of our privacy features is to be simple, adaptable, and creative.
+ </description>
+    </item>
+    
+    <item>
+      <title>Surveying the Privacy Landscape</title>
+      <link>http://example.org/news/research-development/2019-08-21_surveying-privacy-landscape/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/research-development/2019-08-21_surveying-privacy-landscape/</guid>
+      <description>In this article I will discuss my views on the existing privacy technology in use in the cryptocurrency space. Since several projects have a primary focus on privacy, I will explain the various privacy technologies, which will help in understanding the route Decred has taken and I will advocate we take. A second article will follow that goes into more detail on how Decred plans to approach privacy. The projects I will cover here are:</description>
+    </item>
+    
+    <item>
+      <title>Distributed - Africa - w/Akin Sawyerr</title>
+      <link>http://example.org/news/community/2019-06-18_africa/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/community/2019-06-18_africa/</guid>
+      <description>Akin Sawyerr, Africa Lead
+ Explains his background in fintech in Africa How @chrisburniske introduced him to Decred The specific appeal of Decred&amp;rsquo;s governance system in African Discusses Decred as SoV &amp;amp; MoE Evaluates the remittance opportunity in Africa Discusses the Decred community and recent events  </description>
+    </item>
+    
+    <item>
+      <title>Decred Releases Proposal for Decentralized Exchange (“DEX”) with Eye toward Disrupting Billion-Dollar Exchange Market</title>
+      <link>http://example.org/news/press-release/2018-06-05_dex_proposal/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/press-release/2018-06-05_dex_proposal/</guid>
+      <description>Privacy, security, fewer barriers to entry and absence of unnecessary fees among the benefits of next phase of blockchain evolution
+ Chicago, IL June 5, 2018 —Decred (DCR), an autonomous digital currency with built-in governance, today released a formal proposal for a new kind of decentralized exchange. Known by its temporary working name “DEX,” the proposal suggests replacing the billion-dollar centralized cryptocurrency exchange market with a trustless peer-to-peer model.</description>
+    </item>
+    
+    <item>
+      <title>Decred Rocks Consensus 2018 with Updates to Acclaimed Blockchain Governance Platform – Booth #230, May 14-16, NYC</title>
+      <link>http://example.org/news/press-release/2018-05-14_decred_rocks_consensus/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/press-release/2018-05-14_decred_rocks_consensus/</guid>
+      <description>Showcase to Include Latest Features for Lightning Network Integration, Atomic Swaps and Politeia, Decred’s Tool for Timestamping and Storing Data Off-Chain
+ Value of Decred (DCR) has increased XX% YTD, on the heels of new releases, MIT talk, endorsements from influential investors and profiles in leading trade outlets
+New York, NY May 14 2018 — Decred, an autonomous digital currency with smart governance, today showcases the latest updates to its acclaimed blockchain platform.</description>
+    </item>
+    
+    <item>
+      <title>TEST POST (contributing)</title>
+      <link>http://example.org/news/contributing/2019-09-06_test_post/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/contributing/2019-09-06_test_post/</guid>
+      <description>Showcase to Include Latest Features for Lightning Network Integration, Atomic Swaps and Politeia, Decred’s Tool for Timestamping and Storing Data Off-Chain
+ Value of Decred (DCR) has increased XX% YTD, on the heels of new releases, MIT talk, endorsements from influential investors and profiles in leading trade outlets
+New York, NY May 14 2018 — Decred, an autonomous digital currency with smart governance, today showcases the latest updates to its acclaimed blockchain platform.</description>
+    </item>
+    
+    <item>
+      <title>Decred Adds First Intelligent Proposal System to Advance Blockchain Governance</title>
+      <link>http://example.org/news/press-release/2017-10-26_decred_proposal_system/</link>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/press-release/2017-10-26_decred_proposal_system/</guid>
+      <description>System Powered by Politeia, a Standalone Tool for Storing Off-Chain Data That Is Both Versioned and Timestamped for Broader Use in Record Storage, Identity Systems, Supply Chains
+ Chicago, IL October 26, 2017 — Decred, an autonomous digital currency, has launched the first intelligent blockchain proposal system. Powered by Politeia, a standalone tool for off-chain data storage, the system sets a new standard for blockchain governance, allowing anyone in the community to submit a formal proposal that will be timestamped and versioned in an off-chain repository.</description>
+    </item>
+    
+    <item>
+      <title>Decred Adds Support for Atomic Swaps</title>
+      <link>http://example.org/news/press-release/2017-09-20_decred_atomic_swaps/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/press-release/2017-09-20_decred_atomic_swaps/</guid>
+      <description>Deployment Delivers on Hotly Anticipated Technology, Allowing for Direct, On-Chain Exchanges between Users of Decred, Bitcoin and Litecoin
+ Chicago, IL September 20, 2017 — Decred, the cryptocurrency for the people, has become one of the first cryptocurrency projects to offer on-chain atomic swaps. With this announcement, Decred (DCR), Bitcoin (BTC) and Litecoin (LTC) users can now do direct over-the-counter (“OTC”) trades without third-party exchanges. This advancement disintermediates the exchange process, allowing for greater market fluency.</description>
+    </item>
+    
+    <item>
+      <title>Decred Integrates with Exodus to Offer Secure Transfer of Blockchain Assets</title>
+      <link>http://example.org/news/press-release/2017-06-23_decred_integrates/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/press-release/2017-06-23_decred_integrates/</guid>
+      <description>Extension of the DCR and Exodus Networks Comes on the Heels of a Flurry of Other Upgrades from the Cryptocurrency Industry Stalwarts
+ Chicago, IL June 23, 2017 —Decred (DCR), the cryptocurrency for the people by Bitcoin developers, today announced that it is supported by Exodus, the first desktop multi-asset wallet app that allows users to secure, manage, and exchange blockchain assets. With this partnership, Decred participants can enjoy complete and easy control of their currency.</description>
+    </item>
+    
+  </channel>
+</rss>

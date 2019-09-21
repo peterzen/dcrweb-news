@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main>
+	<pre>news/press-release.html</pre>
+
+	{{ partial "section-nav.html" . }}
+
+	{{ partial "breadcrumb.html" . }}
+
+	<article class="news--article">
+
+		<h2>{{ .Title }}</h2>
+		<h5>{{ partial "byline" . }}</h5>
+		<div class="news--article-body">
+			{{ .Content }}
+		</div>
+
+
+		{{ .Render "press-release-footer" }}
+	</article>
+</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

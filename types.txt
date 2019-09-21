@@ -1,0 +1,24 @@
+**Announcements**
+- Announcements (e.g. old dcr blogposts, and ideally replacing the future ones)
+- Release Updates
+- Service announcements (saved for any rare emergency notices)
+
+**Research and Development**
+- General Research and Writings
+- Dev Posts/Mentions/Research
+
+**Community**
+- Show DCR (e.g.  general posts, noteworthy discussions, mentions, user projects etc)
+- Broadcast, streams, videos (e.g. DA, Decred in Depth, Roundtable etc)
+
+**Events**
+- Community Meetups
+- Decred in Conferences
+
+**Media**
+- Decred in media (half of the current press page)
+- Press releases, interviews (other half of the current press page)
+
+**Contributing**
+- Help needed (e.g. norteworthy  gh issues)
+- RFPs

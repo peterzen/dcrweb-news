@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Home</title>
+    <link>http://example.org/news/community/</link>
+    <description>Recent content in Community on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/news/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Dive - Decentralizing the Treasury - w/Marco Peereboom</title>
+      <link>http://example.org/news/community/2019-09-16_da/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/community/2019-09-16_da/</guid>
+      <description>Decred is in the process of becoming a decentralized autonomous organization, ruled by the collective intelligence of its community and their decision-making. Marco Peereboom, New Systems Lead at Decred, discusses his proposal to decentralize the treasury, which would put control of funds in the hands of the community.</description>
+    </item>
+    
+    <item>
+      <title>Distributed - Africa - w/Akin Sawyerr</title>
+      <link>http://example.org/news/community/2019-06-18_africa/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/community/2019-06-18_africa/</guid>
+      <description>Akin Sawyerr, Africa Lead
+ Explains his background in fintech in Africa How @chrisburniske introduced him to Decred The specific appeal of Decred&amp;rsquo;s governance system in African Discusses Decred as SoV &amp;amp; MoE Evaluates the remittance opportunity in Africa Discusses the Decred community and recent events  </description>
+    </item>
+    
+  </channel>
+</rss>

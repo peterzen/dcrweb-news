@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Home</title>
+    <link>http://example.org/news/research/</link>
+    <description>Recent content in Research on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/news/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TEST POST (research)</title>
+      <link>http://example.org/news/research/2019-09-06_test_post/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/research/2019-09-06_test_post/</guid>
+      <description>Showcase to Include Latest Features for Lightning Network Integration, Atomic Swaps and Politeia, Decred’s Tool for Timestamping and Storing Data Off-Chain
+ Value of Decred (DCR) has increased XX% YTD, on the heels of new releases, MIT talk, endorsements from influential investors and profiles in leading trade outlets
+New York, NY May 14 2018 — Decred, an autonomous digital currency with smart governance, today showcases the latest updates to its acclaimed blockchain platform.</description>
+    </item>
+    
+  </channel>
+</rss>

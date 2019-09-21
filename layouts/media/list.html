@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+    <pre>media/list.html</pre>
+
+    <h1>{{ .CurrentSection.Name }}</h1>
+
+    {{ partial "section-nav.html" . }}
+
+    {{ $press_coverage_items := .Site.Data.news.coverage }}
+
+    {{ range $press_coverage_items }}
+    <div class="press__coverage-wrapper">
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a> ({{ .source }})
+        {{ dateFormat "January 2, 2006" .date }}
+    </div>
+    {{ end }}
+
+
+</main>
+{{ end }}

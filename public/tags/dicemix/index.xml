@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DiceMix on Home</title>
+    <link>http://example.org/tags/dicemix/</link>
+    <description>Recent content in DiceMix on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/dicemix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Iterating Privacy</title>
+      <link>http://example.org/news/announcements/2019-08-28_iterating_privacy/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/announcements/2019-08-28_iterating_privacy/</guid>
+      <description>Decred’s privacy features and plans are ready to be revealed. The goal of our privacy features is to be simple, adaptable, and creative.
+ Rather than take the routes established by privacy-focused projects, e.g. ring signatures, zk-SNARKs, or Mimblewimble, we decided to take a mixnet approach, where we have integrated the mixnet with our Proof-of-Stake (“PoS”) governance system. Currently, just over 50% of all decred in circulation participate in PoS, which requires a steady flow of ticket purchases.</description>
+    </item>
+    
+  </channel>
+</rss>

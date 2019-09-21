@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.4.0 on Home</title>
+    <link>http://example.org/tags/1.4.0/</link>
+    <description>Recent content in 1.4.0 on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/1.4.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Release Update 1.4.0</title>
+      <link>http://example.org/news/announcements/2019-08-28_update-1-4-0/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/announcements/2019-08-28_update-1-4-0/</guid>
+      <description>Contents  dcrd dcrwallet decrediton  dcrd v1.4.0 This release of dcrd introduces a new consensus vote agenda which allows the stakeholders to decide whether or not to activate changes needed to modify the sequence lock handling which is required for providing full support for the Lightning Network. For those unfamiliar with the voting process in Decred, this means that all code in order to make the necessary changes is already included in this release, however its enforcement will remain dormant until the stakeholders vote to activate it.</description>
+    </item>
+    
+  </channel>
+</rss>

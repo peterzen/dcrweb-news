@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main>
+	<pre>community/video.html</pre>
+
+	{{ partial "section-nav.html" . }}
+
+	{{ partial "breadcrumb.html" . }}
+
+	<article class="news--article">
+
+		{{ if .Params.image }}
+		<img src="{{ .Params.image }}" alt="">
+		{{ end }}
+
+		<h2>{{ .Title }}</h2>
+		<h5>{{ partial "byline" . }}</h5>
+		<div class="news--article-body">
+			{{ .Content }}
+
+			{{ with .Params.video }}
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			{{ end }}
+		</div>
+		<div class="news--related-content">
+			<ul id="tags">
+				{{ range .Params.tags }}
+				<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+	</article>
+</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

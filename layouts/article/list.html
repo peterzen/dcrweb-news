@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main>
+    <pre>article/list.html</pre>
+<!--    <pre>{{ printf "%#v" .CurrentSection.Section   }}</pre>-->
+
+    <h1>{{ .CurrentSection.Name }}</h1>
+
+    {{ partial "section-nav.html" . }}
+
+    {{ range .Paginator.Pages }}
+    {{ .Render "summary" }}
+    {{ end }}
+</main>
+
+{{ end }}

@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Home"
+mainSections = [ "news" ]
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"

@@ -1,0 +1,20 @@
+{{ define "main" }}
+	<main>
+		<pre>default/single.html</pre>
+		<article>
+			<h2>{{ .Title }}</h2>
+			<h2>{{ .Date.Format "02.01.2006 15:04" }}</h2>
+			<div>
+				{{ .Content }}
+			</div>
+			<div>
+				<ul id="tags">
+					{{ range .Params.tags }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

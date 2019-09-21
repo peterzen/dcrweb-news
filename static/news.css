@@ -1,0 +1,18 @@
+
+
+.news--article {
+
+}
+
+.news--article-body img {
+    max-width: 100%;
+}
+
+
+.news--content-type-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #e0e0e0;
+    vertical-align: bottom;
+}
