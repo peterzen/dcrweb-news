@@ -9,10 +9,11 @@
     {{ $press_coverage_items := .Site.Data.news.coverage }}
 
     {{ range $press_coverage_items }}
-    <div class="press__coverage-wrapper">
-        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a> ({{ .source }})
-        {{ dateFormat "January 2, 2006" .date }}
-    </div>
+    <h4>
+        {{ $.Render "content-type-icon" }}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+    </h4>
+    <h5>{{ .source }} on {{ dateFormat "January 1, 2006" .date }}</h5>
     {{ end }}
 
 

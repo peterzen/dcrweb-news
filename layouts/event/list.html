@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+    <pre>events/list.html</pre>
+
+    <h1>{{ .CurrentSection.Name }}</h1>
+
+    {{ partial "section-nav.html" . }}
+
+    {{ $items := .Site.Data.news.meetup_groups }}
+
+    <h2>Meetup Groups</h2>
+
+    <ul>
+    {{ range $items }}
+        <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .location }}</a></li>
+    {{ end }}
+    </ul>
+
+</main>
+{{ end }}
