@@ -1,4 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea/
-public/
-resources/_gen
+dist/
+src/resources/_gen
+src/public/
+src/i18n/*
+node_modules/
+.DS_Store
