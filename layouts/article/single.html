@@ -18,6 +18,7 @@
 			{{ .Content }}
 		</div>
 		<div class="news--related-content">
+            <h6>Tags</h6>
 			<ul id="tags">
 				{{ range .Params.tags }}
 				<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>

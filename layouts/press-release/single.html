@@ -6,16 +6,17 @@
 
 	{{ partial "breadcrumb.html" . }}
 
-	<article class="news--article">
+	<article class="news--press-release">
 
 		<h2>{{ .Title }}</h2>
 		<h5>{{ partial "byline" . }}</h5>
+
 		<div class="news--article-body">
 			{{ .Content }}
 		</div>
 
-
 		{{ .Render "press-release-footer" }}
+
 	</article>
 </main>
 {{ partial "sidebar.html" . }}
