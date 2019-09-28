@@ -10,12 +10,12 @@
             href="{{ .Permalink | relLangURL }}"
             class="list-group-item list-group-item-action
             {{ if  $currentPage.IsDescendant . }}active{{ end }}"
-    >{{ .Name }}</a>
+    >{{ .Params.menu_title }}</a>
     {{ end }}
 </div>
 
 <div class="text-right">
     {{ range $subSections }}
-    <a href="{{ .Permalink }}">{{ .Name }}</a> |
+<!--    <a href="{{ .Permalink }}">{{ .Name }}</a> |-->
     {{ end }}
 </div>

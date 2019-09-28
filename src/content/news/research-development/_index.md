@@ -1,5 +1,6 @@
 ---
-title: Research
-type: "article"
-weight: 50
+menu_title: "Research"
+title: "Research and Development"
+type: "news-research"
+weight: 60
 ---

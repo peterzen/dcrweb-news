@@ -3,7 +3,7 @@ title: "Surveying the Privacy Landscape"
 date: 2019-08-21
 author: "Jake Yocom-Piatt"
 tags: ["Privacy"]
-type: "research-development"
+type: "news-research"
 layout: "article"
 image: "surveying-the-privacy-landscape.png"
 ---

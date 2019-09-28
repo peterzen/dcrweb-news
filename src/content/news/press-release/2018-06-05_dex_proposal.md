@@ -2,7 +2,7 @@
 title: "Decred Releases Proposal for Decentralized Exchange (“DEX”) with Eye toward Disrupting Billion-Dollar Exchange Market"
 date: 2018-06-05
 draft: false
-type: "press-release"
+type: "news-press-release"
 ---
 
 >Privacy, security, fewer barriers to entry and absence of unnecessary fees among the benefits of next phase of blockchain evolution

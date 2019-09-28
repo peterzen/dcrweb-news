@@ -2,7 +2,7 @@
 title: "Decred Rocks Consensus 2018 with Updates to Acclaimed Blockchain Governance Platform – Booth #230, May 14-16, NYC"
 date: 2018-05-14
 draft: false
-type: "press-release"
+type: "news-press-release"
 
 ---
 

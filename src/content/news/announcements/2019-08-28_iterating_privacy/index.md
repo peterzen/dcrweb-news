@@ -1,10 +1,9 @@
 ---
 title: "Iterating Privacy"
-layout: "article"
 date: 2019-08-28
 author: "Jake Yocom-Piatt"
 tags: ["Privacy", "Post-Quantum", "CoinShuffle++", "DiceMix", "Confidential transactions"]
-type: "announcement"
+type: "news-announcement"
 layout: "article"
 image: "iterating-privacy.png"
 ---

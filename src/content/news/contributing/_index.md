@@ -1,5 +1,6 @@
 ---
+menu_title: Contributing
 title: Contributing
-type: "contributing"
-weight: 60
+type: "news-contributing"
+weight: 70
 ---

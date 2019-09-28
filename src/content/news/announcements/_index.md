@@ -1,5 +1,6 @@
 ---
 title: Announcements
-type: "announcement"
+menu_title: Announcements
+type: "news-announcement"
 weight: 10
 ---

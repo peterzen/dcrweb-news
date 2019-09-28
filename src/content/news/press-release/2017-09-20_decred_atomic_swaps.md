@@ -2,7 +2,7 @@
 title: "Decred Adds Support for Atomic Swaps"
 date: 2017-09-20
 draft: false
-type: "press-release"
+type: "news-press-release"
 ---
 
 

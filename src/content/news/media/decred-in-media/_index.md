@@ -1,5 +1,5 @@
 ---
 title: Decred in the Media
-type: "media"
+type: "news-media"
 weight: 20
 ---
